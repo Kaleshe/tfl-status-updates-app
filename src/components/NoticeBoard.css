@@ -1,0 +1,11 @@
+.noticeBoard {
+   background: var(--primary-dark);
+   color: white;
+   padding: 2rem;
+}
+
+@media (min-width: 768px) {
+   .noticeBoard {
+      width: 100%;
+   }
+}

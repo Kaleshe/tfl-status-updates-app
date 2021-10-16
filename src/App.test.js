@@ -1,8 +1,26 @@
-import { render, screen } from '@testing-library/react';
+import { render, container } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders app', () => {
+
+});
+
+test('Displays service data', () => {
+
+});
+
+test('Shows selected service on the notice board when clicked', () => {
+
+});
+
+test('Shows a list of disruptions', () => {
+
+});
+
+test('Displays night when the service operates at night', () => {
+
+});
+
+test('Notice board is empty on page load', () => {
+
 });
