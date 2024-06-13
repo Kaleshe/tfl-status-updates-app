@@ -3,11 +3,11 @@
 Install dependencies:
 
 ```
-yarn
+npm i
 ```
 
 Start application:
 
 ```
-yarn start
+npm run start
 ```
